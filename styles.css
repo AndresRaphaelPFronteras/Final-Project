@@ -1,0 +1,44 @@
+
+body {	
+	background-color: #EEFFF3;
+	font-family: "Courier New";
+	margin: 30px;
+}
+
+
+h1 {	
+	color: #67A7D3;
+	float: left;
+	font-family: "Bauhaus 93 Regular";
+	font-size: 65px;
+}
+
+
+h2 {	
+	clear: both;
+	color: #67A7D3;
+}
+
+
+hr {
+	clear: both;
+	margin: 20px;
+}
+
+
+#workers1 { 
+	position: relative;
+		left: 30px;
+	width: 250px;
+}
+
+
+#workers2 {
+	width: 250px;
+}
+
+#house {
+	position: relative;
+		left: 30px;
+	width: 250px;
+}
