@@ -42,3 +42,12 @@ hr {
 		left: 30px;
 	width: 250px;
 }
+
+h1:hover {
+
+	color: #64C654;
+	transform: rotate(-10deg);
+	transition-property: color, transform;
+	transition-duration: 0.314159s;
+	transition-timing-function: ease-out;
+}
