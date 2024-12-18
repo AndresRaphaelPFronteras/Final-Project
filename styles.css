@@ -1,5 +1,5 @@
 
-body:picture-in-picture {	
+body {	
 	background-color: #EEFFF3;
 	font-family: "Courier New";
 	margin: 30px;
@@ -12,6 +12,11 @@ h1 {
 	font-family: "Bauhaus 93 Regular";
 	font-size: 65px;
 }
+
+h1:hover {
+	transition-duration: 0.1s;
+	transform: rotate(5deg) scale(1.1, 1.1);
+	color: #63BF8E;
 
 
 h2 {	
@@ -43,11 +48,6 @@ hr {
 	width: 250px;
 }
 
-h1:hover {
-
-	color: #64C654;
-	transform: rotate(-10deg);
-	transition-property: color, transform;
-	transition-duration: 0.314159s;
-	transition-timing-function: ease-out;
+a:hover {
+	color: #67A7D3;
 }
