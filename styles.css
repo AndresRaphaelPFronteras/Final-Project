@@ -13,10 +13,12 @@ h1 {
 	font-size: 65px;
 }
 
-h1:hover {
+h1:hover {	
 	transition-duration: 0.1s;
 	transform: rotate(5deg) scale(1.1, 1.1);
+	transition-timing-function: ease-in-out;
 	color: #63BF8E;
+}
 
 
 h2 {	
@@ -42,6 +44,7 @@ hr {
 	width: 250px;
 }
 
+
 #house {
 	position: relative;
 		left: 30px;
@@ -51,3 +54,4 @@ hr {
 a:hover {
 	color: #67A7D3;
 }
+
